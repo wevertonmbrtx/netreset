@@ -2,7 +2,7 @@
 setlocal
 
 echo ========================================
-echo   Reset de conexao de internet (Windows)
+echo   Reset de conexão de internet (Windows)
 echo ========================================
 
 echo.
@@ -26,6 +26,6 @@ echo [5/5] Resetando pilha TCP/IP...
 netsh int ip reset
 
 echo.
-echo Processo concluido.
-echo Reinicie o computador para aplicar todas as alteracoes.
+echo Processo concluído.
+echo Reinicie o computador para aplicar todas as alterações.
 pause
