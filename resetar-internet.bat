@@ -4,7 +4,7 @@ setlocal
 net session >nul 2>&1
 if %errorlevel% neq 0 (
     echo Este script precisa ser executado como administrador.
-    echo Clique com o botao direito no arquivo e selecione "Executar como administrador".
+    echo Clique com o botão direito no arquivo e selecione "Executar como administrador".
     pause
     exit /b 1
 )
@@ -67,9 +67,9 @@ if errorlevel 1 (
 
 echo.
 if %HAS_ERROR% neq 0 (
-    echo Processo concluido com erros. Verifique as mensagens acima.
+    echo Processo concluído com erros. Verifique as mensagens acima.
 ) else (
-    echo Processo concluido com sucesso.
+    echo Processo concluído com sucesso.
 )
 echo Reinicie o computador para aplicar todas as alterações.
 pause
