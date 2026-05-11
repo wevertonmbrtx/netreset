@@ -1,5 +1,5 @@
 @echo off
-setlocal
+setlocal enabledelayedexpansion
 
 net session >nul 2>&1
 if errorlevel 1 (
@@ -66,7 +66,7 @@ if errorlevel 1 (
 )
 
 echo.
-if "%HAS_ERROR%" neq "0" (
+if "!HAS_ERROR!" neq "0" (
     echo Processo concluído com erros. Verifique as mensagens acima.
 ) else (
     echo Processo concluído com sucesso.
